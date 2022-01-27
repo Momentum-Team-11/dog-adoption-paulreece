@@ -1,0 +1,80 @@
+
+.header {
+    background-color: #004175;
+    border-color: #89DEEF;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 30px;
+}
+h1 {
+    color: white;
+    font-family:"Open Sans";
+    font-size: 60px;
+    text-align:left
+    
+}
+.dog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.one {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.two {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.three {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.four {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.five {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.six {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.seven {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.eight {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.nine {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.img {
+    mx-width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+li {
+    background-color: #89DEEF;
+    border-radius: 20%;
+}
