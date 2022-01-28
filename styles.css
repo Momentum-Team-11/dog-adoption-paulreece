@@ -11,19 +11,26 @@
 h1 {
     color: white;
     font-family:"Open Sans";
-    font-size: 60px;
+    font-size: 40px;
     text-align:left;
+    font-weight: bolder;
 }
 h2 {
-    padding-left: 30px
+    padding-left: 30px;
+    font-size: 30px;
+    font-family:"Open Sans";
+    font-weight: bolder;
 }
 p {
-    padding-left: 30px
+    padding-left: 30px;
+    font-family:"Open Sans";
+    font-size: 20px;
 }
 .dog {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family:"Open Sans";
 }
 .one {
     flex: 0 32%;
@@ -70,6 +77,11 @@ p {
     height: 500px;
     margin-bottom: 2%;
 }
+h3 {
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Oswald";
+}
 .img {
     max-width: 100%;
     height: auto;
@@ -81,10 +93,34 @@ ul{
     justify-content: flex-start;
     padding-inline-start: 0px;
     gap: 5px;
+    margin-top: 5px;
+    font-size: 15px;
 }
 li {
     background-color: #89DEEF;
-    border-radius: 20%;
+    border-radius: 11px;
     padding: .8%;
     border: .8%;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    text-align: center;
+}
+.box {
+    width: 32%;
+    position: relative;
+    background-color: #A6A9F0;
+}
+.box img {
+    opacity: 50%;
+}
+.box p {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    color: white;
+    font-family: "Oswald";
+    font-size: 50px;
 }
