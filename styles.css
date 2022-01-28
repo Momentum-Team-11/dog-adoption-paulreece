@@ -86,7 +86,7 @@ h3 {
     max-width: 100%;
     height: auto;
 }
-ul{
+ul {
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
@@ -104,23 +104,49 @@ li {
 }
 footer {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     flex: 1 1 auto;
     text-align: center;
 }
-.box {
-    width: 32%;
-    position: relative;
-    background-color: #A6A9F0;
+.box-one {
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .75), 
+        rgba(166, 169, 240, .75)
+      ),
+      url("starter_files/images/donate.jpg")
+      no-repeat;
+      height: 345px;
+      width: 468px;
+    
 }
-.box img {
-    opacity: 50%;
+.box-two {
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .75), 
+        rgba(166, 169, 240, .75)
+      ),
+      url("starter_files/images/volunteer.jpg")
+      no-repeat;
+      height: 345px;
+      width: 468px;
+    
 }
-.box p {
-    position: absolute;
-    top: 23%;
-    left: 23%;
+.box-three {
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .75), 
+        rgba(166, 169, 240, .75)
+      ),
+      url("starter_files/images/location.png")
+      no-repeat;
+      height: 345px;
+      width: 468px;
+    
+}
+.box-p {
     color: white;
     font-family: "Oswald";
     font-size: 50px;
+    margin-top: 130px;
 }
