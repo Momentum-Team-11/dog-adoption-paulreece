@@ -1,0 +1,164 @@
+
+.header {
+    background-color: #004175;
+    border-color: #89DEEF;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 30px;
+}
+h1 {
+    color: white;
+    font-family:"Open Sans";
+    font-size: 40px;
+    text-align:left;
+    font-weight: bolder;
+}
+h2 {
+    padding-left: 30px;
+    font-size: 30px;
+    font-family:"Open Sans";
+    font-weight: bolder;
+}
+p {
+    padding-left: 30px;
+    font-family:"Open Sans";
+    font-size: 20px;
+}
+.dog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family:"Open Sans";
+    gap: 5px;
+    padding: 30px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.one {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.two {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.three {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.four {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.five {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.six {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.seven {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.eight {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+.nine {
+    flex: 0 32%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+h3 {
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Oswald";
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding-inline-start: 0px;
+    gap: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+li {
+    background-color: #89DEEF;
+    border-radius: 11px;
+    padding: .8%;
+    border: .8%;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.box-one {
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .75), 
+        rgba(166, 169, 240, .75)
+      ),
+      url("starter_files/images/donate.jpg")
+      no-repeat;
+      max-width: 100%;
+      height: auto;
+    flex: 0 32%;
+    background-size: 100% 100%;
+}
+.box-two {
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .75), 
+        rgba(166, 169, 240, .75)
+      ),
+      url("starter_files/images/volunteer.jpg")
+      no-repeat;
+      max-width: 100%;
+      height: auto;
+    flex: 0 32%;
+    background-size: 100% 100%;
+}
+.box-three {
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .75), 
+        rgba(166, 169, 240, .75)
+      ),
+      url("starter_files/images/location.png")
+      no-repeat;
+      height: 345px;
+      width: 468px;
+      flex: 0 32%;
+      background-size: 100% 100%;
+    
+}
+.box-p {
+    color: white;
+    font-family: "Oswald";
+    font-size: 4vw;
+    margin-top: 130px;
+}
